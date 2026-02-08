@@ -1,5 +1,6 @@
 #Imports
 import sys
+import time
 
 #Leemos el nombre del archivo desde la línea de comandos
 file_name = sys.argv[1]
@@ -9,6 +10,7 @@ numbers = []
 #Leemos los números del archivo, asegurándonos de convertirlos a float y omitiendo líneas vacías o no numéricas
 try:
     with open(filepath, 'r') as file:
+        start_time = time.perf_counter()
         for line in file:
             line = line.strip()
             if not line:
@@ -47,6 +49,9 @@ moda = max(set(numbers), key=numbers.count)
 varianza = sum((x - mean) ** 2 for x in numbers) / (len(numbers) - 1)
 desviacion_estandar = varianza ** 0.5
 
+end_time = time.perf_counter()
+elapsed_time = end_time - start_time
+
 lines = [
     "Statistics:",
     f"Count: {cantidad}",
@@ -55,6 +60,7 @@ lines = [
     f"Mode: {moda}",
     f"Standard Deviation: {desviacion_estandar}",
     f"Variance: {varianza}",
+    f"Execution time: {elapsed_time:.6f} seconds"
 ]
 
 

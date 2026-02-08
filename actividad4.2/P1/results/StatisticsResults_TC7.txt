@@ -5,3 +5,4 @@ Median: 2.4664097307429e+20
 Mode: 4.30461588377079e+18
 Standard Deviation: 1.4461131060123329e+20
 Variance: 2.0912431153806367e+40
+Execution time: 1.116394 seconds
