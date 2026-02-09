@@ -98,4 +98,4 @@ kodak: 1
 significance: 1
 coastal: 1
 Total de palabras: 100
-Tiempo de ejecución: 0.000312 segundos
+Tiempo de ejecución: 0.000437 segundos

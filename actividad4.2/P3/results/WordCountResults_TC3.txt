@@ -486,4 +486,4 @@ src: 1
 gradually: 1
 placing: 1
 Total de palabras: 500
-Tiempo de ejecución: 0.001180 segundos
+Tiempo de ejecución: 0.001170 segundos

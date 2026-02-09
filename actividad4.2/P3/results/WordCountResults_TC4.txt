@@ -948,4 +948,4 @@ wishlist: 1
 expired: 1
 circular: 1
 Total de palabras: 1000
-Tiempo de ejecución: 0.001877 segundos
+Tiempo de ejecución: 0.001858 segundos
